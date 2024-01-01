@@ -87,7 +87,6 @@ const ChatSection = ({ userId, userName }) => {
                 downvotes={chat.downvotes}
                 change={voteChange}
                 chat={chat.chat}
-                votable={false}
               ></Chat>
             ))}
         </div>
@@ -106,7 +105,6 @@ const ChatSection = ({ userId, userName }) => {
                 downvotes={chat.downvotes}
                 change={voteChange}
                 chat={chat.chat}
-                votable={false}
               ></Chat>
             ))}
         </div>
